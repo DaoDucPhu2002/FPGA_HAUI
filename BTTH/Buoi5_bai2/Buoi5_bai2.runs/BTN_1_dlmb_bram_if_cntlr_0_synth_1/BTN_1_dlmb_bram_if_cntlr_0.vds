@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Oct 12 15:40:36 2023
+# Process ID: 10872
+# Current directory: D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1
+# Command line: vivado.exe -log BTN_1_dlmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BTN_1_dlmb_bram_if_cntlr_0.tcl
+# Log file: D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1/BTN_1_dlmb_bram_if_cntlr_0.vds
+# Journal file: D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1\vivado.jou
+# Running On: Dao_Duc_Phu, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8268 MB
+#-----------------------------------------------------------
+source BTN_1_dlmb_bram_if_cntlr_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1392.586 ; gain = 119.934
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: BTN_1_dlmb_bram_if_cntlr_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c5efea2d80105867 to dir: D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.cache/ip/2022.2/c/5/c5efea2d80105867/BTN_1_ilmb_bram_if_cntlr_0.dcp to D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1/BTN_1_dlmb_bram_if_cntlr_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.cache/ip/2022.2/c/5/c5efea2d80105867/BTN_1_ilmb_bram_if_cntlr_0_sim_netlist.v to D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1/BTN_1_dlmb_bram_if_cntlr_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.cache/ip/2022.2/c/5/c5efea2d80105867/BTN_1_ilmb_bram_if_cntlr_0_sim_netlist.vhdl to D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1/BTN_1_dlmb_bram_if_cntlr_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.cache/ip/2022.2/c/5/c5efea2d80105867/BTN_1_ilmb_bram_if_cntlr_0_stub.v to D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1/BTN_1_dlmb_bram_if_cntlr_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.cache/ip/2022.2/c/5/c5efea2d80105867/BTN_1_ilmb_bram_if_cntlr_0_stub.vhdl to D:/CODE/FPGA/BTTH/Buoi5_bai2/Buoi5_bai2.runs/BTN_1_dlmb_bram_if_cntlr_0_synth_1/BTN_1_dlmb_bram_if_cntlr_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP BTN_1_dlmb_bram_if_cntlr_0, cache-ID = c5efea2d80105867.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 12 15:40:49 2023...

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1697593357">
+  <File Type="PA-TCL" Name="bai11_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="bai11_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="bai11_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="bai11_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="bai11_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="bai11_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="bai11_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="bai11_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="bai11_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/bai11/bai11.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/bai11/hdl/bai11_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/bai11/ip/bai11_mig_7series_0_0_1/board.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="bai11_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="bai11_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_rst_mig_7series_0_83M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_axi_smc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bai11_mig_7series_0_0"/>
+</GenRun>

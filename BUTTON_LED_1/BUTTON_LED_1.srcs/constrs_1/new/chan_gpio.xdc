@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN D9 [get_ports {button_pin_tri_i[0]}]
+set_property PACKAGE_PIN H5 [get_ports {led_pin_tri_o[1]}]
+set_property PACKAGE_PIN J5 [get_ports {led_pin_tri_o[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {button_pin_tri_i[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led_pin_tri_o[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led_pin_tri_o[0]}]

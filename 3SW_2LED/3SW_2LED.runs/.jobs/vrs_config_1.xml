@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="btn_led_rst_mig_7series_0_83M_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_rst_mig_7series_0_83M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_clk_wiz_0_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_mig_7series_0_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_mig_7series_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_axi_uartlite_0_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_xbar_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_ilmb_v10_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_lmb_bram_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_microblaze_0_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_dlmb_v10_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_axi_gpio_0_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_axi_smc_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="btn_led_mdm_1_0_synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/btn_led_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/CODE/FPGA/3SW_2LED/3SW_2LED.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="btn_led_rst_mig_7series_0_83M_0_synth_1"/>
+		<Parent Id="btn_led_clk_wiz_0_0_synth_1"/>
+		<Parent Id="btn_led_mig_7series_0_0_synth_1"/>
+		<Parent Id="btn_led_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="btn_led_xbar_0_synth_1"/>
+		<Parent Id="btn_led_ilmb_v10_0_synth_1"/>
+		<Parent Id="btn_led_lmb_bram_0_synth_1"/>
+		<Parent Id="btn_led_microblaze_0_0_synth_1"/>
+		<Parent Id="btn_led_dlmb_v10_0_synth_1"/>
+		<Parent Id="btn_led_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="btn_led_axi_gpio_0_0_synth_1"/>
+		<Parent Id="btn_led_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="btn_led_axi_smc_0_synth_1"/>
+		<Parent Id="btn_led_mdm_1_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
